@@ -1,0 +1,19 @@
+{
+    "excludedLocations": ["Méx", "Mex","Venez","Yuc", "Cap", "Vera", "Méjico", "Mejico","MX", "MEJICO", "MEXICO"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Badajoz",
+        "Don Benito",
+        "Almendralejo",
+        "M\u00e9rida",
+        "Merida"
+    ],
+    "name": "Badajoz"
+}

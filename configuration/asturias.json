@@ -1,0 +1,21 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Asturias",
+        "Asturies",
+        "Oviedo",
+        "Uvieu",
+        "Gij\u00f3n",
+        "Gijon",
+        "Mieres"
+    ],
+    "name": "Asturias"
+}

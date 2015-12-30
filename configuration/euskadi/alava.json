@@ -1,0 +1,18 @@
+{
+    "excludedLocations": ["Bra", "Saudi"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "\u00c1lava",
+        "Araba",
+        "Vitoria",
+        "Gasteiz"
+    ],
+    "name": "\u00c1lava"
+}

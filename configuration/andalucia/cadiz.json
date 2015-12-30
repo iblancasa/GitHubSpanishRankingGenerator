@@ -1,0 +1,44 @@
+{
+    "excludedLocations": ["USA", "Philipp", "Henares", "California", "Cap", "Vera", "Caballeros"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Algeciras",
+        "Arcos De La Frontera",
+        "Barbate",
+        "Los Barrios",
+        "Cadiz",
+        "C\u00e1diz",
+        "Chiclana",
+        "Chiclana De La Frontera",
+        "Chipiona",
+        "Conil De La Frontera",
+        "Jerez",
+        "Jer\u00e9z",
+        "Jerez De La Frontera",
+        "Jimena De La Frontera",
+        "La L\u00ednea",
+        "Medina-Sidonia",
+        "Puerto De Santa Mar\u00eda",
+        "El Puerto De Santa Mar\u00eda",
+        "Puerto Real",
+        "Rota",
+        "San Roque",
+        "Sanl\u00facar",
+        "Sanl\u00facar De Barrameda",
+        "Setenil",
+        "Tarifa",
+        "Ubrique",
+        "Vejer",
+        "Vejer De La Frontera",
+        "Villaluenga",
+        "Villamart\u00edn"
+    ],
+    "name": "C\u00e1diz"
+}
