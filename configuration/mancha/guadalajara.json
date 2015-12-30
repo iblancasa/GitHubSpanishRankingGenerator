@@ -1,0 +1,15 @@
+{
+    "excludedLocations": ["Jalisco", "MX", "Mex" , "México", "Mejico", "Méjico"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Guadalajara"
+    ],
+    "name": "Guadalajara"
+}

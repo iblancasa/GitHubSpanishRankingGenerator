@@ -1,0 +1,28 @@
+{
+    "excludedLocations": ["El", "Hills", "Ecuador"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Granada",
+        "Grenade",
+        "Gran\u00e1",
+        "Baza",
+        "Motril",
+        "Guadix",
+        "Almu\u00f1\u00e9car",
+        "Maracena",
+        "Zubia",
+        "Armilla",
+        "Hu\u00e9tor",
+        "Pinos del Valle",
+        "Churriana de la Vega",
+        "Salobre\u00f1a"
+    ],
+    "name": "Granada"
+}

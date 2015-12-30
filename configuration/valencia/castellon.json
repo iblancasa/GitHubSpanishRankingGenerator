@@ -1,0 +1,23 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Castell\u00f3n",
+        "Castell\u00f3",
+        "Burriana",
+        "Vall de Ux\u00f3",
+        "Vinaroz",
+        "Benicarl\u00f3",
+        "Almazora",
+        "Villareal",
+        "Benicasim"
+    ],
+    "name": "Castell\u00f3n"
+}

@@ -1,0 +1,20 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Coru\u00f1a",
+        "Santiago de Compostela",
+        "Ferrol",
+        "Nar\u00f3n",
+        "Oleiros",
+        "Carballo"
+    ],
+    "name": "Coru\u00f1a"
+}

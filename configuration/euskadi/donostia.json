@@ -1,0 +1,21 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Donostia",
+        "Donosti",
+        "Guip\u00fazcoa",
+        "Gipuzkoa",
+        "San Sebasti\u00e1n",
+        "Eibar",
+        "\u00c9ibar"
+    ],
+    "name": "Donostia"
+}

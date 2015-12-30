@@ -1,0 +1,16 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-30"
+        ]
+    ],
+    "last_date": "2015-12-30",
+    "locations": [
+        "Girona",
+        "Gerona"
+    ],
+    "name": "Girona"
+}
