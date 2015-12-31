@@ -1,0 +1,15 @@
+{
+    "excludedLocations": ["Monterrey", "Méx", "Mex", "Nic", "Gto", "Guana"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-31"
+        ]
+    ],
+    "last_date": "2015-12-31",
+    "locations": [
+        "Le\u00f3n"
+    ],
+    "name": "Le\u00f3n"
+}

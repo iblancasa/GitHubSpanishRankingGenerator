@@ -1,0 +1,15 @@
+{
+    "excludedLocations": [],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-31"
+        ]
+    ],
+    "last_date": "2015-12-31",
+    "locations": [
+        "Segovia"
+    ],
+    "name": "Segovia"
+}

@@ -1,0 +1,15 @@
+{
+    "excludedLocations": ["OH", "Ohio", "Bra", "Wash", "WA", "PR", "Or"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-31"
+        ]
+    ],
+    "last_date": "2015-12-31",
+    "locations": [
+        "Toledo"
+    ],
+    "name": "Toledo"
+}

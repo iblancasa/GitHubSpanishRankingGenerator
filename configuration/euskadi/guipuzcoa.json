@@ -4,18 +4,20 @@
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-30"
+            "2015-12-31"
         ]
     ],
-    "last_date": "2015-12-30",
+    "last_date": "2015-12-31",
     "locations": [
+        "Guip\u00fazcoa",
+        "San Sebastian",
+        "San Sebastián",
+        "Guipuzcoa",
+        "Gipuzkoa",
         "Donostia",
         "Donosti",
-        "Guip\u00fazcoa",
-        "Gipuzkoa",
-        "San Sebasti\u00e1n",
         "Eibar",
         "\u00c9ibar"
     ],
-    "name": "Donostia"
+    "name": "Guip\u00fazcoa"
 }

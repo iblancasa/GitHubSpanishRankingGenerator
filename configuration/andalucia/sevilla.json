@@ -1,0 +1,20 @@
+{
+    "excludedLocations": ["México", "Oax", "Mexico", "Mejico", "Méjico"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-31"
+        ]
+    ],
+    "last_date": "2015-12-31",
+    "locations": [
+        "Sevilla",
+        "Seville",
+        "Alcal\u00e1 de Guadaira",
+        "Utrera",
+        "Mairena del Aljarafe",
+        "\u00c9cija"
+    ],
+    "name": "Sevilla"
+}

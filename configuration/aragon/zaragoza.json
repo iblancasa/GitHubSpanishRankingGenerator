@@ -1,0 +1,19 @@
+{
+    "excludedLocations": ["México", "Oax", "Mexico", "Méjico", "Mejico"],
+    "excludedUsers": [],
+    "intervals": [
+        [
+            "2008-01-01",
+            "2015-12-31"
+        ]
+    ],
+    "last_date": "2015-12-31",
+    "locations": [
+        "Zaragoza",
+        "Saragossa",
+        "Zaragoz\u00e1",
+        "Calatayud",
+        "Utebo"
+    ],
+    "name": "Zaragoza"
+}
