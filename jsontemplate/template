@@ -1,0 +1,17 @@
+[
+{{#users}}
+{ "name": "{{name}}",
+  "position": {{position}},
+  "contributions": {{contributions}},
+  "followers": {{followers}},
+  "longestStreak":{{longestStreak}},
+  "currentStreak":{{currentStreak}},
+  "repositories":{{repositories}},
+  "stars":{{stars}},
+  "organizations":{{organizations}},
+  "join": "{{join}}",
+  "avatar": "{{avatar}}",
+  "language": "{{language}}"
+}{{#comma}},{{/comma}}
+{{/users}}
+]

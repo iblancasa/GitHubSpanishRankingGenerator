@@ -10,7 +10,7 @@ def main(argv):
     ciudad = GitHubCity(idGH, secretGH,debug=True)
     ciudad.readConfigFromJSON(argv[0])
     ciudad.getCityUsers()
-    ciudad.export(os.path.abspath("html/city-template.html"),os.path.abspath("generated/asd.html"), "contributions")
+    ciudad.export(os.path.abspath("jsontemplate/template"),os.path.abspath("generated/asd.json"), "contributions")
 
 if __name__ == "__main__":
    main(sys.argv[1:])
