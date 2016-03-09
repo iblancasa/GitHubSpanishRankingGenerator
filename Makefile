@@ -66,31 +66,31 @@ mancha:
 	$(EXEC) $(CONF)mancha/toledo.json mancha/toledo
 
 asturias:
-	$(EXEC) $(CONF)/asturias.json asturias
+	$(EXEC) $(CONF)asturias.json asturias
 
 baleares:
-	$(EXEC) $(CONF)/baleares.json baleares
+	$(EXEC) $(CONF)baleares.json baleares
 
 canarias:
-	$(EXEC) $(CONF)/canarias.json canarias
+	$(EXEC) $(CONF)canarias.json canarias
 
 cantabria:
-	$(EXEC) $(CONF)/cantabria.json cantabria
+	$(EXEC) $(CONF)cantabria.json cantabria
 
 ceuta:
-	$(EXEC) $(CONF)/ceuta.json ceuta
+	$(EXEC) $(CONF)ceuta.json ceuta
 
 madrid:
-	$(EXEC) $(CONF)/madrid.json madrid
+	$(EXEC) $(CONF)madrid.json madrid
 
 melilla:
-	$(EXEC) $(CONF)/melilla.json melilla
+	$(EXEC) $(CONF)melilla.json melilla
 
 murcia:
-	$(EXEC) $(CONF)/murcia.json murcia
+	$(EXEC) $(CONF)murcia.json murcia
 
 navarra:
-	$(EXEC) $(CONF)/navarra.json navarra
+	$(EXEC) $(CONF)navarra.json navarra
 
 rioja:
-	$(EXEC) $(CONF)/rioja.json rioja
+	$(EXEC) $(CONF)rioja.json rioja
