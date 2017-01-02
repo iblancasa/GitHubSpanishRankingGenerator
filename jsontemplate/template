@@ -1,17 +1,18 @@
-[
-{{#users}}
-{ "name": "{{name}}",
-  "position": {{position}},
-  "contributions": {{contributions}},
-  "followers": {{followers}},
-  "longestStreak":{{longestStreak}},
-  "currentStreak":{{currentStreak}},
-  "repositories":{{repositories}},
-  "stars":{{stars}},
-  "organizations":{{organizations}},
-  "join": "{{join}}",
-  "avatar": "{{avatar}}",
-  "language": "{{language}}"
-}{{#comma}},{{/comma}}
-{{/users}}
-]
+{ "date": "{{extraData.date}}",
+  "users": [
+  {{#users}}
+  { "name": "{{name}}",
+    "position": {{position}},
+    "contributions": {{contributions}},
+    "public": {{public}},
+    "private": {{private}},
+    "bio": "{{bio}}",
+    "followers": {{followers}},
+    "repositories":{{repositories}},
+    "organizations":{{organizations}},
+    "join": "{{join}}",
+    "avatar": "{{avatar}}"
+  }{{#comma}},{{/comma}}
+  {{/users}}
+  ]
+}
