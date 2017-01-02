@@ -14,11 +14,11 @@ def main(argv):
 
     extraData = {
         "date": datetime.datetime.now().strftime("%I:%M%p-%B-%d-%Y"),
-        #"city": ciudad._city
+        "city": ciudad._city
     }
 
     ciudad.export(os.path.abspath("jsontemplate/template"),os.path.abspath(argv[1]+".json"), "public", data=extraData)
-    #ciudad.export(os.path.abspath("jsontemplate/template2"),os.path.abspath(argv[1]+".json"), "contributions", data=extraData)
+    ciudad.export(os.path.abspath("jsontemplate/template2"),os.path.abspath(argv[1]+".md"), "public", data=extraData)
 
 
 if __name__ == "__main__":
