@@ -186,7 +186,7 @@ pontevedra:
 ##Fin Galicia ###########################################################
 
 ##Inicio Castilla la Mancha ###########################################################
-mancha:
+mancha: albacete ciudadreal cuenca guadalajara toledo
 
 albacete:
 	mkdir -p $(GEN)mancha
