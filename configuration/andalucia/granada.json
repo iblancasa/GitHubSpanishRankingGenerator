@@ -1,6 +1,9 @@
 {
     "excludedLocations": ["El", "Hills", "Ecuador"],
-    "excludedUsers": [],
+    "excludedUsers": [
+	"nacheteam", # This repo https://github.com/nacheteam/Auto-Commit
+	"rankingfaker" #Bot
+	],
     "intervals": [
         [
             "2008-01-01",
