@@ -1,13 +1,47 @@
 PROCESS=process.py
 PYTHON=python3
 EXEC=$(PYTHON) $(PROCESS)
+REG=$(PYTHON) region.py
 CONF=configuration/
 GEN=generated/
 
 all: andalucia aragon castillayleon catalonia cvalenciana euskadi extremadura galicia mancha asturias baleares canarias cantabria ceuta madrid melilla murcia navarra rioja
 
+spain-region:
+	$(REG) -c $(GEN)andalucia/andalucia.json \
+		-c $(GEN)aragon/aragon.json \
+		-c $(GEN)castillayleon/castillayleon.json \
+		-c $(GEN)catalonia/catalonia.json \
+		-c $(GEN)cvalenciana/cvalenciana.json \
+		-c $(GEN)euskadi/euskadi.json \
+		-c $(GEN)extremadura/extremadura.json \
+		-c $(GEN)galicia/galicia.json \
+		-c $(GEN)mancha/mancha.json \
+		-c $(GEN)asturias.json \
+		-c $(GEN)baleares.json \
+		-c $(GEN)canarias.json \
+		-c $(GEN)cantabria.json \
+		-c $(GEN)ceuta.json \
+		-c $(GEN)madrid.json \
+		-c $(GEN)melilla.json \
+		-c $(GEN)murcia.json \
+		-c $(GEN)navarra.json \
+		-c $(GEN)rioja.json \
+		-o $(GEN)$@ \
+		-r "España"
+
 ##Inicio Andalucía ###########################################################
 andalucia: almeria cadiz cordoba granada huelva jaen malaga sevilla
+	$(REG) -c $(GEN)$@/almeria.json \
+		-c $(GEN)$@/cadiz.json \
+		-c $(GEN)$@/cordoba.json \
+		-c $(GEN)$@/granada.json \
+		-c $(GEN)$@/huelva.json \
+		-c $(GEN)$@/jaen.json \
+		-c $(GEN)$@/malaga.json \
+		-c $(GEN)$@/sevilla.json \
+		-o $(GEN)$@/$@ \
+		-r "Andalucía"
 
 almeria:
 	mkdir -p $(GEN)andalucia
@@ -45,6 +79,11 @@ sevilla:
 
 ##Inicio Aragón ###########################################################
 aragon: huesca teruel zaragoza
+	$(REG) -c $(GEN)$@/huesca.json \
+		-c $(GEN)$@/teruel.json \
+		-c $(GEN)$@/zaragoza.json \
+		-o $(GEN)$@/$@ \
+		-r "Aragón"
 
 huesca:
 	mkdir -p $(GEN)aragon
@@ -62,6 +101,17 @@ zaragoza:
 
 ##Inicio Castilla y León ###########################################################
 castillayleon: avila burgos leon palencia salamanca segovia soria valladolid zamora
+	$(REG) -c $(GEN)$@/avila.json \
+		-c $(GEN)$@/burgos.json \
+		-c $(GEN)$@/leon.json \
+		-c $(GEN)$@/palencia.json \
+		-c $(GEN)$@/salamanca.json \
+		-c $(GEN)$@/segovia.json \
+		-c $(GEN)$@/soria.json \
+		-c $(GEN)$@/valladolid.json \
+		-c $(GEN)$@/zamora.json \
+		-o $(GEN)$@/$@ \
+		-r "Castilla y León"
 
 avila:
 	mkdir -p $(GEN)castillayleon
@@ -103,7 +153,12 @@ zamora:
 
 ##Inicio Cataluña ###########################################################
 catalonia: barcelona girona lleida tarragona
-
+	$(REG) -c $(GEN)$@/barcelona.json \
+		-c $(GEN)$@/girona.json \
+		-c $(GEN)$@/lleida.json \
+		-c $(GEN)$@/tarragona.json \
+		-o $(GEN)$@/$@ \
+		-r "Cataluña"
 barcelona:
 	mkdir -p $(GEN)catalonia
 	$(EXEC) $(CONF)catalonia/barcelona.json $(GEN)catalonia/barcelona
@@ -123,6 +178,11 @@ tarragona:
 
 ##Inicio C. Valenciana ###########################################################
 cvalenciana: alicante castellon valencia
+	$(REG) -c $(GEN)$@/alicante.json \
+		-c $(GEN)$@/castellon.json \
+		-c $(GEN)$@/valencia.json \
+		-o $(GEN)$@/$@ \
+		-r "Comunidad Valenciana"
 
 alicante:
 	mkdir -p $(GEN)cvalenciana
@@ -139,6 +199,11 @@ valencia:
 
 ##Inicio Euskadi ###########################################################
 euskadi: alava guipuzcoa vizcaya
+	$(REG) -c $(GEN)$@/alava.json \
+		-c $(GEN)$@/guipuzcoa.json \
+		-c $(GEN)$@/vizcaya.json \
+		-o $(GEN)$@/$@ \
+		-r "Euskadi"
 
 alava:
 	mkdir -p $(GEN)euskadi
@@ -155,6 +220,10 @@ vizcaya:
 
 ##Inicio Extremadura ###########################################################
 extremadura: caceres badajoz
+	$(REG) -c $(GEN)$@/caceres.json \
+		-c $(GEN)$@/badajoz.json \
+		-o $(GEN)$@/$@ \
+		-r "Extremadura"
 
 caceres:
 	mkdir -p $(GEN)extremadura
@@ -167,7 +236,12 @@ badajoz:
 
 ##Inicio Galicia ###########################################################
 galicia: coruna lugo orense pontevedra
-
+	$(REG) -c $(GEN)$@/coruna.json \
+		-c $(GEN)$@/lugo.json \
+		-c $(GEN)$@/orense.json \
+		-c $(GEN)$@/pontevedra.json \
+		-o $(GEN)$@/$@ \
+		-r "Galicia"
 coruna:
 	mkdir -p $(GEN)galicia
 	$(EXEC) $(CONF)galicia/coruna.json $(GEN)galicia/coruna
@@ -187,6 +261,13 @@ pontevedra:
 
 ##Inicio Castilla la Mancha ###########################################################
 mancha: albacete ciudadreal cuenca guadalajara toledo
+	$(REG) -c $(GEN)$@/albacete.json \
+		-c $(GEN)$@/ciudadreal.json \
+		-c $(GEN)$@/cuenca.json \
+		-c $(GEN)$@/guadalajara.json \
+		-c $(GEN)$@/toledo.json \
+		-o $(GEN)$@/$@ \
+		-r "Castilla-La Mancha"
 
 albacete:
 	mkdir -p $(GEN)mancha
