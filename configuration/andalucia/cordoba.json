@@ -1,13 +1,24 @@
 {
-    "excludedLocations": ["Argentina", "rgenet", "Cuarto", "AR", "Cap", "Vera"],
+    "excludedLocations": [
+        "rgenet",
+        "Argentina",
+        "Cuarto",
+        "Vera",
+        "Cap",
+        "AR"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-30"
+            "2012-10-26"
+        ],
+        [
+            "2012-10-26",
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-30",
+    "last_date": "2017-08-21",
     "locations": [
         "C\u00f3rdoba",
         "Cordoba"

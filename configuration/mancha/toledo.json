@@ -1,13 +1,21 @@
 {
-    "excludedLocations": ["OH", "Ohio", "Bra", "Wash", "WA", "PR", "Or"],
+    "excludedLocations": [
+        "Ohio",
+        "Wash",
+        "OH",
+        "Or",
+        "Bra",
+        "WA",
+        "PR"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-31"
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-31",
+    "last_date": "2017-08-21",
     "locations": [
         "Toledo"
     ],

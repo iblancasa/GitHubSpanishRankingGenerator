@@ -1,13 +1,19 @@
 {
-    "excludedLocations": ["Méx", "Mex", "Nic", "Gto", "Guana"],
+    "excludedLocations": [
+        "M\u00e9x",
+        "Gto",
+        "Guana",
+        "Mex",
+        "Nic"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-31"
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-31",
+    "last_date": "2017-08-21",
     "locations": [
         "Salamanca"
     ],

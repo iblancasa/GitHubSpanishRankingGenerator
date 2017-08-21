@@ -1,13 +1,27 @@
 {
-    "excludedLocations": ["Venezuela","CA","VE","Ca","PA"],
+    "excludedLocations": [
+        "PA",
+        "CA",
+        "Venezuela",
+        "VE",
+        "Ca"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-31"
+            "2012-10-26"
+        ],
+        [
+            "2012-10-26",
+            "2015-03-25"
+        ],
+        [
+            "2015-03-25",
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-31",
+    "last_date": "2017-08-21",
     "locations": [
         "Valencia"
     ],

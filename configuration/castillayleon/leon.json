@@ -1,13 +1,20 @@
 {
-    "excludedLocations": ["Monterrey", "Méx", "Mex", "Nic", "Gto", "Guana"],
+    "excludedLocations": [
+        "Monterrey",
+        "Mex",
+        "Nic",
+        "Guana",
+        "Gto",
+        "M\u00e9x"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-31"
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-31",
+    "last_date": "2017-08-21",
     "locations": [
         "Le\u00f3n"
     ],

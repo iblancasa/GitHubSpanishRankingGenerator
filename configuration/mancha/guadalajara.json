@@ -1,13 +1,28 @@
 {
-    "excludedLocations": ["Jalisco", "MX", "Mex" , "México", "Mejico", "Méjico"],
+    "excludedLocations": [
+        "M\u00e9xico",
+        "MX",
+        "Mejico",
+        "Jalisco",
+        "Mex",
+        "M\u00e9jico"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-30"
+            "2012-10-26"
+        ],
+        [
+            "2012-10-26",
+            "2015-03-25"
+        ],
+        [
+            "2015-03-25",
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-30",
+    "last_date": "2017-08-21",
     "locations": [
         "Guadalajara"
     ],

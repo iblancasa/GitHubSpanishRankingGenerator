@@ -1,13 +1,15 @@
 {
-    "excludedLocations": ["Llanera"],
+    "excludedLocations": [
+        "Llanera"
+    ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2015-12-31"
+            "2017-08-21"
         ]
     ],
-    "last_date": "2015-12-31",
+    "last_date": "2017-08-21",
     "locations": [
         "Lugo",
         "Chantada",
