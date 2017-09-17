@@ -4,10 +4,14 @@ python:
 install:
   - pip install -r requirements.txt
 script:
-  - git clone https://github.com/iblancasa/ghrankings.git generated
+  - git clone git://github.com/iblancasa/ghrankings.git generated
   - make
   - make spain-region
 after_success:
   - git config --global user.email "iblancasa@gmail.com"
   - git config --global user.name "Israel Blancas"
-  - cd generated; git add *; git commit -m "New rankings generated"; git push https://${ACCESS}@github.com/iblancasa/ghrankings.git master
+  - cd generated
+  - git remote
+  - git add *
+  - git commit -m "New rankings were generated"
+  - git push "https://iblancasa:${ACCESS}@github.com/iblancasa/ghrankings.git" master > /dev/null 2>&1
