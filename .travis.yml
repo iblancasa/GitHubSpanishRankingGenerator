@@ -10,4 +10,4 @@ script:
 after_success:
   - git config --global user.email "iblancasa@gmail.com"
   - git config --global user.name "Israel Blancas"
-  - cd generated; git add *; git commit -m "New rankings generated"; git push https://$ACCESS@github.com/iblancasa/ghrankings.git
+  - cd generated; git add *; git commit -m "New rankings generated"; git push https://${ACCESS}@github.com/iblancasa/ghrankings.git master
