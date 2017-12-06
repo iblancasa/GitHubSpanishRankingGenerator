@@ -1,24 +1,60 @@
 {
     "excludedLocations": [
-        "rgenet",
         "Argentina",
+        "argentina",
+        "AR",
+        " AR ",
+        "ARG",
+        " ARG ",
+        "San Francisco",
+        "COlombia",
+        "Momil",
+        "Capital",
+        "Cap.",
+        "Chicalco",
+        "Argentian",
+        "Bonn",
+        "Bouwer",
+        "Monte Cristo",
+        "Villa Maria",
+        "Villa María",
+        "Montería",
+        "Río Tercero",
+        "Argenetina",
+        "General Deheza",
+        "VeracruZ",
+        "Veracruz",
+        "Mexico",
+        "Colombia",
+        "Lorica",
+        "Rio Cuarto-Coronel",
+        "Rio Cuarto Coronel",
+        "sahagun",
+        "Monteria",
+        "Villa del rosario",
+        "Villa Carlos Paz",
+        "Rio Cuarto",
+        "Cap",
         "Cuarto",
         "Vera",
-        "Cap",
-        "AR"
+        "rgenet"
     ],
     "excludedUsers": [],
     "intervals": [
         [
             "2008-01-01",
-            "2012-10-26"
+            "2012-12-16"
         ],
         [
-            "2012-10-26",
-            "2017-08-21"
+            "2012-12-16",
+            "2015-06-10"
+        ],
+        [
+            "2015-06-10",
+            "2017-12-02"
         ]
     ],
-    "last_date": "2017-08-21",
+    "last_date": "2017-12-02",
     "locations": [
         "C\u00f3rdoba",
         "Cordoba"
