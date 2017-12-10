@@ -4,6 +4,9 @@ This repository contains the configuration files to generate the GitHub rankings
 
 [GitHubCity](https://github.com/iblancasa/GitHubCity) is used to generate the rankings.
 
+## Demo
+![Demo generating the rankings](demo.gif)
+
 ## How to generate the rankings?
 
 **IMPORTANT: GitHubCity is not compatible with Python 2. So, this repository will not work with Python 2.**
