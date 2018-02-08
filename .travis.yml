@@ -7,7 +7,7 @@ script:
   - echo "No tests"
 after_success:
   - git clone git://github.com/iblancasa/GitHubRankingsSpain.git generated
-  - make
+  - make multi
   - make spain-region
   - git config --global user.email "iblancasa@gmail.com"
   - git config --global user.name "Israel Blancas"
