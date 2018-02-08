@@ -4,6 +4,11 @@ EXEC=$(PYTHON) $(PROCESS)
 REG=$(PYTHON) region.py
 CONF=configuration/
 GEN=generated/
+MAX_PARALLEL=8
+
+.PHONY: all multi
+multi:
+	$(MAKE) -j${MAX_PARALLEL} all
 
 all: andalucia aragon castillayleon catalonia cvalenciana euskadi extremadura galicia mancha asturias baleares canarias cantabria ceuta madrid melilla murcia navarra rioja
 
